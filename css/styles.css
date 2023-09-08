@@ -131,3 +131,28 @@ li {
     color: #9b9fa7;
     font-weight:600;
 }
+
+.quote-section {
+    height: 500px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section-text{
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0 23%;
+}
+
+.quote-auhor {
+    margin-left: 45%;
+    padding: 1rem;
+    font-size: 25px;
+    font-weight: 600;
+    color: #1f2937;
+}
