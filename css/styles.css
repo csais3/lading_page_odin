@@ -91,3 +91,43 @@ li {
     background-color: #3b82f6;
     border: none;
 }
+
+.information-section {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.information-header-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.information-section-images{
+    margin: 2rem 20rem;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-item{
+    width: 20%;
+    height: 11rem;
+    border-style:solid;
+    border-width: 4px;
+    border-color: #3b82f6;
+    border-radius: 1rem;
+}
+
+.image-item-img{
+    height: 70%;
+    margin: 2rem;
+}
+
+.image-item-text{
+    height: 25%;
+    color: #9b9fa7;
+    font-weight:600;
+}
